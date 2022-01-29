@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.form {
+  width: 100%;
+  height: auto;
+  padding: 100px 50px;
+  font-family: "Poppins", sans-serif;
+}
+h1.wc {
+  color: #5235ab;
+  font-size: 45px;
+  font-weight: 600;
+}
+p.thanking {
+  font-size: 23px;
+  line-height: 1.7;
+}
+
+.form-wrapper {
+  margin-top: 30px;
+  display: flex;
+}
+h1.rc,
+h1.sc {
+  color: #5235ab;
+  font-size: 35px;
+  font-weight: 600;
+}
+.left-sec {
+  width: 60%;
+}
+p.sc-desc {
+  font-size: 21px;
+  line-height: 1.6;
+}
+button.sc {
+  padding: 10px 55px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  color: white;
+  background: #5235ab;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.right-sec {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.form-group input{
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 15px;
+  border: none;
+  margin-top: 5px;
+  background: #ebebeb;
+}
+.form-group .text-area {
+    width: 100%;
+    padding: 10px 10px;
+    padding-bottom: 120px;
+    font-size: 15px;
+    border: none;
+    margin-top: 5px;
+    background: #ebebeb;
+}
+.form-group .submit{
+    align-items: flex-end;
+    width: 30%;
+    background: #5235AB;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="form">
+            <div class="top-greeting">
+                <h1 class="wc">You have arrived, welcome!</h1>
+                <p class="thanking">Thanks for you interest in our available engineering role! If you have any
+                    qustions,<br> please
+                    refer to the original application page or email us</p>
+            </div>
+            <div class="form-wrapper">
+                <div class="left-sec">
+                    <h1 class="sc">schedule a call</h1>
+                    <p class="sc-desc">once scheduled. You'll receive a calender invitation and follw-up <br> email
+                        confirming call details</p>
+                    <button type="button" class="sc">schedule your call now</button>
+                </div>
+                <div class="right-sec">
+                    <h1 class="rc">or shoot us an email</h1>
+                    <form action="">
+                        <div class="txt">
+                            <div class="form-group">
+                                <label for="yourName"></label>
+                                <input type="text" id="yourName" name="yourName" placeholder="first and last name*">
+                            </div>
+                            <div class="form-group">
+                                <label for="yourEmail"></label>
+                                <input type="email" id="yourEmail" name="yourEmail" placeholder="email address*">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="YourMessage"></label>
+                            <input type="text" class="text-area" id="YourMessage" name="YourMessage"
+                                placeholder="your Message*">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Submit" class="submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
